@@ -23,6 +23,65 @@
   color: #61dafb;
 }
 
+/* header */
+header {
+  color: #fff;
+  background-color: #373737;
+  padding: 1em;
+}
+
+/* Content */
+body {
+  background-color: #DCD0C0;
+}
+#p_content {
+  padding: 4em;
+}
+
+.todo_item {
+  background-color: #F4F4F4;
+  padding: .5em;
+  margin: 1em;
+}
+
+.todos_items {
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.todos_items li {
+  list-style: none;
+  font-weight: 500;
+  display: flex;
+  border-radius: 4px;
+}
+
+.links a {
+  margin: .4em;
+}
+
+.li_task {
+  flex-grow: 2;
+}
+
+.li_task, .todo_num {
+  padding-top: 0.3em;
+}
+
+.todo_num {
+  padding-left: .5em;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-control {
+    transition: none;
+    flex-basis: 85%;
+    margin-right: 1em;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
